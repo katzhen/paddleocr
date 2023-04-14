@@ -1,0 +1,4 @@
+paddlepaddle-gpu
+paddleocr>=2.0.1
+Flask
+pymupdf==1.19.0

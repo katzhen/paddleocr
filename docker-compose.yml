@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  ppocr:
+    container_name: ppocr
+    build:
+      context: ./
+    ports:
+      - "8050:5000"
+    volumes:
+      - ./data:/paddle

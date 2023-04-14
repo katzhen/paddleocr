@@ -5,5 +5,5 @@ docker-compose up -d --build
 ```
 ### 调用
 ```shell
-curl -X POST -F "file=@/data/123.png" http://127.0.0.1
+curl -X POST -F "file=@/data/123.png" http://127.0.0.1:8050
 ```
